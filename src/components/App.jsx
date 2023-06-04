@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Button from './Button';
 import ImageGallery from './ImageGallery';
 import './App.css';
-import { fetchImages } from './fetchImages/fetchImages';
+import { fetchImages } from '../fetchImages/fetchImages';
 import Searchbar from './Searchbar';
 import Notiflix from 'notiflix';
 import Loader from './Loader';
